@@ -31,7 +31,7 @@ while True:
         # It displays Goodbye when you choose option 3 and stops the loop
     else:
         print("Invalid choice! Try again.")
-    # This prints (invalid choice.!Try again) if you enter a choice whuch isn't 1 to 3
+    # This displays(invalid choice.!Try again) if you enter a choice whuch isn't 1 to 3
 
 
 
