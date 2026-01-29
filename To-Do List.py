@@ -19,16 +19,17 @@ while True:
             print("Task added!")
 
 
-    elif choice == "2":# This displays the list of tasks yoy added when you enter option 2.
-        print(" ")# This makes a space
+    elif choice == "2":# This displays the tasks you added when you enter option 2.
+        print(" ")# This craetes a space
         print("Your tasks:")
-        for i in range(len(tasks)):# This gets the number of tasks you added
-            print(f"{i+1}.{tasks[i]}")#This assigns the numbet of task to the task.For example(if Washing was the first task.It would make it. "1. Washing")
+        for i in range(len(tasks)):# This makes python know the number of tasks you added.
+            print(f"{i+1}.{tasks[i]}")#This assigns the position(rank) of the task to the task.
+#For example(if Washing was the first task.It would make it. "1. Washing")
 
     elif choice == "3":
         print("Goodbye!") # 
         break
-        # It displays Goodbye when you choose option 3 and stops the loop
+        # It displays Goodbye when you choose option 3 and also stops the loop
     else:
         print("Invalid choice! Try again.")
     # This displays(invalid choice.!Try again) if you enter a choice whuch isn't 1 to 3
