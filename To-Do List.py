@@ -19,11 +19,11 @@ while True:
             print("Task added!")
 
 
-    elif choice == "2":
-        print(" ")
+    elif choice == "2":# This displays the list of tasks yoy added when you enter option 2.
+        print(" ")# This makes a space
         print("Your tasks:")
-        for i, t in enumerate(tasks, 1):
-            print(f"{i}. {t}")
+        for i in range(len(tasks)):# This gets the number of tasks you added
+            print(f"{i+1}.{tasks[i]}")#This assigns the numbet of task to the task.For example(if Washing was the first task.It would make it. "1. Washing")
 
     elif choice == "3":
         print("Goodbye!") # 
